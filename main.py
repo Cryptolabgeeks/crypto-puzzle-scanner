@@ -8,13 +8,13 @@ from balance_check import *
 from directory import *
 
 #puzzle_number_to_solve:
-n=64
+n=69
 
 #Do you want this program to store all private keys?
 StoreAllPrivateKeys=True
 CheckBalanceMode=False
 #enter the public key you aim to crack:
-pubtofind='16jY7qLJnxb7CHZyqBP8qca9d51gAjyXQN'
+pubtofind='19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG'
 
 a=int(pow(2,n-1))
 b=int(pow(2,n))
